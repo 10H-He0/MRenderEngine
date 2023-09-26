@@ -19,9 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\D3D12\D3D12CommandContext.h" />
+    <ClInclude Include="Source\D3D12\D3D12DescriptorCache.h" />
+    <ClInclude Include="Source\D3D12\D3D12Device.h" />
+    <ClInclude Include="Source\D3D12\D3D12HeapSlotAllocator.h" />
     <ClInclude Include="Source\D3D12\D3D12MemoryAllocator.h" />
     <ClInclude Include="Source\D3D12\D3D12Resource.h" />
+    <ClInclude Include="Source\D3D12\D3D12RHI.h" />
     <ClInclude Include="Source\D3D12\D3D12Utils.h" />
+    <ClInclude Include="Source\D3D12\D3D12View.h" />
     <ClInclude Include="Source\D3D12\d3dx12.h" />
     <ClInclude Include="Source\D3D12\FormatConvert.h" />
     <ClInclude Include="Source\Math\IntPoint.h" />
@@ -31,12 +37,18 @@
     <ClInclude Include="Source\Math\Vector2.h" />
     <ClInclude Include="Source\Math\Vector3.h" />
     <ClInclude Include="Source\Math\Vector4.h" />
+    <ClInclude Include="Source\Texture\TextureInfo.h" />
     <ClInclude Include="Source\Utils\PlatformHelpers.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\D3D12\D3D12CommandContext.cpp" />
+    <ClCompile Include="Source\D3D12\D3D12DescriptorCache.cpp" />
+    <ClCompile Include="Source\D3D12\D3D12Device.cpp" />
+    <ClCompile Include="Source\D3D12\D3D12HeapSlotAllocator.cpp" />
     <ClCompile Include="Source\D3D12\D3D12MemoryAllocator.cpp" />
     <ClCompile Include="Source\D3D12\D3D12Resource.cpp" />
     <ClCompile Include="Source\D3D12\D3D12Utils.cpp" />
+    <ClCompile Include="Source\D3D12\D3D12View.cpp" />
     <ClCompile Include="Source\Math\Math.cpp" />
     <ClCompile Include="Source\Math\Transform.cpp" />
   </ItemGroup>

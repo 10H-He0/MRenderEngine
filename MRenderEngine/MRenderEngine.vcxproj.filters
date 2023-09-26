@@ -17,6 +17,9 @@
     <Filter Include="Source\Utils">
       <UniqueIdentifier>{af621267-a0fa-4f0f-b6dd-1a16980c3fdd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Texture">
+      <UniqueIdentifier>{9b7b32ec-0bb5-4cbc-b561-43a36b88cdb3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Math\Vector4.h">
@@ -58,6 +61,27 @@
     <ClInclude Include="Source\Utils\PlatformHelpers.h">
       <Filter>Source\Utils</Filter>
     </ClInclude>
+    <ClInclude Include="Source\D3D12\D3D12HeapSlotAllocator.h">
+      <Filter>Source\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D12\D3D12Device.h">
+      <Filter>Source\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D12\D3D12CommandContext.h">
+      <Filter>Source\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D12\D3D12DescriptorCache.h">
+      <Filter>Source\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\TextureInfo.h">
+      <Filter>Source\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D12\D3D12RHI.h">
+      <Filter>Source\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D12\D3D12View.h">
+      <Filter>Source\D3D12</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Math\Transform.cpp">
@@ -73,6 +97,21 @@
       <Filter>Source\D3D12</Filter>
     </ClCompile>
     <ClCompile Include="Source\D3D12\D3D12MemoryAllocator.cpp">
+      <Filter>Source\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D12\D3D12HeapSlotAllocator.cpp">
+      <Filter>Source\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D12\D3D12CommandContext.cpp">
+      <Filter>Source\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D12\D3D12DescriptorCache.cpp">
+      <Filter>Source\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D12\D3D12Device.cpp">
+      <Filter>Source\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D12\D3D12View.cpp">
       <Filter>Source\D3D12</Filter>
     </ClCompile>
   </ItemGroup>
