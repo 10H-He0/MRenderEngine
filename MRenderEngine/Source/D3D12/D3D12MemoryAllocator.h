@@ -54,7 +54,7 @@ private:
 
 	bool CanAllocate(uint32_t SizeToAllocate);
 
-	uint32_t SizeToUintSize(uint32_t Size) const
+	uint32_t SizeToUnitSize(uint32_t Size) const
 	{
 		return (Size + (MinBlockSize - 1)) / MinBlockSize;
 	}

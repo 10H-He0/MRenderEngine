@@ -47,7 +47,7 @@ public:
 
 	void ReleaseResource();
 
-	void SetType(EResourceLocationType type) {}
+	void SetType(EResourceLocationType type) { ResourceLocationType = type; }
 
 public:
 	EResourceLocationType ResourceLocationType = EResourceLocationType::Undefined;

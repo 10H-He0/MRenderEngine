@@ -20,6 +20,12 @@
     <Filter Include="Source\Texture">
       <UniqueIdentifier>{9b7b32ec-0bb5-4cbc-b561-43a36b88cdb3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Shader">
+      <UniqueIdentifier>{1d662931-5b90-4e77-9ba3-e8aa1abd7b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\File">
+      <UniqueIdentifier>{e5b8a2b1-c123-4319-a5c9-0846d8e5781e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Math\Vector4.h">
@@ -48,9 +54,6 @@
     </ClInclude>
     <ClInclude Include="Source\D3D12\D3D12Utils.h">
       <Filter>Source\D3D12</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\D3D12\FormatConvert.h">
-      <Filter>Source\Utils</Filter>
     </ClInclude>
     <ClInclude Include="Source\D3D12\D3D12Resource.h">
       <Filter>Source\D3D12</Filter>
@@ -81,6 +84,24 @@
     </ClInclude>
     <ClInclude Include="Source\D3D12\D3D12View.h">
       <Filter>Source\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D12\D3D12Buffer.h">
+      <Filter>Source\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D12\D3D12Texture.h">
+      <Filter>Source\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D12\D3D12Viewport.h">
+      <Filter>Source\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shader\Shader.h">
+      <Filter>Source\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils\FormatConvert.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\File\FileHelpers.h">
+      <Filter>Source\File</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +134,21 @@
     </ClCompile>
     <ClCompile Include="Source\D3D12\D3D12View.cpp">
       <Filter>Source\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D12\D3D12Viewport.cpp">
+      <Filter>Source\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D12\D3D12Buffer.cpp">
+      <Filter>Source\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D12\D3D12RHI.cpp">
+      <Filter>Source\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D12\D3D12Texture.cpp">
+      <Filter>Source\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader\Shader.cpp">
+      <Filter>Source\Shader</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -70,7 +70,7 @@ void MD3D12BuddyAllocator::Initialize()
 		}
 	}
 
-	MaxOrder = UnitSizeToOrder(SizeToUintSize(DEFAULT_POOL_SIZE));
+	MaxOrder = UnitSizeToOrder(SizeToUnitSize(DEFAULT_POOL_SIZE));
 
 	for (uint32_t i = 0; i <= MaxOrder; i++)
 	{
@@ -86,7 +86,7 @@ bool MD3D12BuddyAllocator::AllocResource(uint32_t Size, uint32_t Alignment, MD3D
 
 	if (CanAllocate(SizeToAllocate))
 	{
-		const uint32_t UnitSize = SizeToUintSize(SizeToAllocate);
+		const uint32_t UnitSize = SizeToUnitSize(SizeToAllocate);
 		const uint32_t Order = UnitSizeToOrder(UnitSize);
 		const uint32_t Offset = AllocateBlock(Order);
 		const uint32_t AllocSize = UnitSize * MinBlockSize;
@@ -161,7 +161,7 @@ bool MD3D12BuddyAllocator::CanAllocate(uint32_t SizeToAllocate)
 
 		BlockSize = BlockSize >> 1;
 
-		if (BlockSize <= SizeToAllocate) return false;
+		if (BlockSize < SizeToAllocate) return false;
 	}
 
 	return false;
