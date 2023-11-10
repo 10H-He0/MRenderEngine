@@ -6,7 +6,7 @@ enum class ETextureType
 {
 	TEXTURE_2D,
 	TEXTURE_CUBE,
-	TEXTURE_3D£¬
+	TEXTURE_3D,
 };
 
 struct MTextureInfo
@@ -16,7 +16,7 @@ struct MTextureInfo
 	size_t Width;
 	size_t Height;
 	size_t Depth;
-	size_t Arraysize;
+	size_t ArraySize;
 	size_t MipCount;
 	DXGI_FORMAT Format;
 

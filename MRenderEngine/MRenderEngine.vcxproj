@@ -33,6 +33,7 @@
     <ClInclude Include="Source\D3D12\D3D12Viewport.h" />
     <ClInclude Include="Source\D3D12\d3dx12.h" />
     <ClInclude Include="Source\File\FileHelpers.h" />
+    <ClInclude Include="Source\File\PlatformHelpers.h" />
     <ClInclude Include="Source\Math\IntPoint.h" />
     <ClInclude Include="Source\Math\Math.h" />
     <ClInclude Include="Source\Math\Matrix.h" />
@@ -40,7 +41,19 @@
     <ClInclude Include="Source\Math\Vector2.h" />
     <ClInclude Include="Source\Math\Vector3.h" />
     <ClInclude Include="Source\Math\Vector4.h" />
+    <ClInclude Include="Source\Mesh\Color.h" />
+    <ClInclude Include="Source\Mesh\Ray.h" />
+    <ClInclude Include="Source\Mesh\Vertex.h" />
+    <ClInclude Include="Source\Render\InputLayout.h" />
+    <ClInclude Include="Source\Render\PSO.h" />
     <ClInclude Include="Source\Shader\Shader.h" />
+    <ClInclude Include="Source\TextureLoader\DDS.h" />
+    <ClInclude Include="Source\TextureLoader\DDSTextureLoader.h" />
+    <ClInclude Include="Source\TextureLoader\HDRTextureLoader.h" />
+    <ClInclude Include="Source\TextureLoader\LoaderHelpers.h" />
+    <ClInclude Include="Source\TextureLoader\stb_image.h" />
+    <ClInclude Include="Source\TextureLoader\WICTextureLoader.h" />
+    <ClInclude Include="Source\Texture\Texture.h" />
     <ClInclude Include="Source\Texture\TextureInfo.h" />
     <ClInclude Include="Source\Utils\FormatConvert.h" />
     <ClInclude Include="Source\Utils\PlatformHelpers.h" />
@@ -60,7 +73,14 @@
     <ClCompile Include="Source\D3D12\D3D12Viewport.cpp" />
     <ClCompile Include="Source\Math\Math.cpp" />
     <ClCompile Include="Source\Math\Transform.cpp" />
+    <ClCompile Include="Source\Mesh\Color.cpp" />
+    <ClCompile Include="Source\Render\InputLayout.cpp" />
+    <ClCompile Include="Source\Render\PSO.cpp" />
     <ClCompile Include="Source\Shader\Shader.cpp" />
+    <ClCompile Include="Source\TextureLoader\DDSTextureLoader.cpp" />
+    <ClCompile Include="Source\TextureLoader\HDRTextureLoader.cpp" />
+    <ClCompile Include="Source\TextureLoader\WICTextureLoader.cpp" />
+    <ClCompile Include="Source\Texture\Texture.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

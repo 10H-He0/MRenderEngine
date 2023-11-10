@@ -26,6 +26,15 @@
     <Filter Include="Source\File">
       <UniqueIdentifier>{e5b8a2b1-c123-4319-a5c9-0846d8e5781e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Render">
+      <UniqueIdentifier>{8ae1255f-e901-414e-add3-d9358e9485f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh">
+      <UniqueIdentifier>{e0518bb0-ab0c-4016-8ae8-0f456d601a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TextureLoader">
+      <UniqueIdentifier>{a0a680cb-315a-41b7-9bc4-a634d8465bd0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Math\Vector4.h">
@@ -103,6 +112,45 @@
     <ClInclude Include="Source\File\FileHelpers.h">
       <Filter>Source\File</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Render\InputLayout.h">
+      <Filter>Source\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Render\PSO.h">
+      <Filter>Source\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh\Color.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh\Vertex.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh\Ray.h">
+      <Filter>Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextureLoader\WICTextureLoader.h">
+      <Filter>Source\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextureLoader\stb_image.h">
+      <Filter>Source\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextureLoader\LoaderHelpers.h">
+      <Filter>Source\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextureLoader\HDRTextureLoader.h">
+      <Filter>Source\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextureLoader\DDSTextureLoader.h">
+      <Filter>Source\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextureLoader\DDS.h">
+      <Filter>Source\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\File\PlatformHelpers.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\Texture.h">
+      <Filter>Source\Texture</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Math\Transform.cpp">
@@ -149,6 +197,27 @@
     </ClCompile>
     <ClCompile Include="Source\Shader\Shader.cpp">
       <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render\InputLayout.cpp">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render\PSO.cpp">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh\Color.cpp">
+      <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextureLoader\WICTextureLoader.cpp">
+      <Filter>Source\TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextureLoader\HDRTextureLoader.cpp">
+      <Filter>Source\TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextureLoader\DDSTextureLoader.cpp">
+      <Filter>Source\TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\Texture.cpp">
+      <Filter>Source\Texture</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
