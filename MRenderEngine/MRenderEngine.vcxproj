@@ -42,8 +42,10 @@
     <ClInclude Include="Source\Math\Vector3.h" />
     <ClInclude Include="Source\Math\Vector4.h" />
     <ClInclude Include="Source\Mesh\Color.h" />
+    <ClInclude Include="Source\Mesh\Mesh.h" />
     <ClInclude Include="Source\Mesh\Ray.h" />
     <ClInclude Include="Source\Mesh\Vertex.h" />
+    <ClInclude Include="Source\Mesh\BoundingBox.h" />
     <ClInclude Include="Source\Render\InputLayout.h" />
     <ClInclude Include="Source\Render\PSO.h" />
     <ClInclude Include="Source\Shader\Shader.h" />
@@ -55,6 +57,7 @@
     <ClInclude Include="Source\TextureLoader\WICTextureLoader.h" />
     <ClInclude Include="Source\Texture\Texture.h" />
     <ClInclude Include="Source\Texture\TextureInfo.h" />
+    <ClInclude Include="Source\Texture\TextureRepository.h" />
     <ClInclude Include="Source\Utils\FormatConvert.h" />
     <ClInclude Include="Source\Utils\PlatformHelpers.h" />
   </ItemGroup>
@@ -73,7 +76,9 @@
     <ClCompile Include="Source\D3D12\D3D12Viewport.cpp" />
     <ClCompile Include="Source\Math\Math.cpp" />
     <ClCompile Include="Source\Math\Transform.cpp" />
+    <ClCompile Include="Source\Mesh\BoundingBox.cpp" />
     <ClCompile Include="Source\Mesh\Color.cpp" />
+    <ClCompile Include="Source\Mesh\Mesh.cpp" />
     <ClCompile Include="Source\Render\InputLayout.cpp" />
     <ClCompile Include="Source\Render\PSO.cpp" />
     <ClCompile Include="Source\Shader\Shader.cpp" />
@@ -81,6 +86,7 @@
     <ClCompile Include="Source\TextureLoader\HDRTextureLoader.cpp" />
     <ClCompile Include="Source\TextureLoader\WICTextureLoader.cpp" />
     <ClCompile Include="Source\Texture\Texture.cpp" />
+    <ClCompile Include="Source\Texture\TextureRepository.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

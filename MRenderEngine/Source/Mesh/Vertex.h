@@ -11,7 +11,7 @@ struct MVertex
 		const TVector3& p,
 		const TVector3& n,
 		const TVector3& t,
-		const TVector3& uv):
+		const TVector2& uv):
 		Position(p),
 		Normal(n),
 		TangentU(t),
