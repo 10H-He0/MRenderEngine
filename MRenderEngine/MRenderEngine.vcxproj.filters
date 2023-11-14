@@ -35,6 +35,9 @@
     <Filter Include="Source\TextureLoader">
       <UniqueIdentifier>{a0a680cb-315a-41b7-9bc4-a634d8465bd0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Material">
+      <UniqueIdentifier>{4ebf7dfe-2644-49cb-b04c-951929a6a210}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Math\Vector4.h">
@@ -169,6 +172,15 @@
     <ClInclude Include="Source\Mesh\Primitive.h">
       <Filter>Source\Mesh</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Material\Material.h">
+      <Filter>Source\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Material\MaterialInstance.h">
+      <Filter>Source\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Material\MaterialRepository.h">
+      <Filter>Source\Material</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Math\Transform.cpp">
@@ -254,6 +266,15 @@
     </ClCompile>
     <ClCompile Include="Source\Mesh\Primitive.cpp">
       <Filter>Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Material\Material.cpp">
+      <Filter>Source\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Material\MaterialInstance.cpp">
+      <Filter>Source\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Material\MaterialRepository.cpp">
+      <Filter>Source\Material</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
