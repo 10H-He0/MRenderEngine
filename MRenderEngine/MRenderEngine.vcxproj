@@ -42,7 +42,10 @@
     <ClInclude Include="Source\Math\Vector3.h" />
     <ClInclude Include="Source\Math\Vector4.h" />
     <ClInclude Include="Source\Mesh\Color.h" />
+    <ClInclude Include="Source\Mesh\FbxLoader.h" />
     <ClInclude Include="Source\Mesh\Mesh.h" />
+    <ClInclude Include="Source\Mesh\MeshRepository.h" />
+    <ClInclude Include="Source\Mesh\Primitive.h" />
     <ClInclude Include="Source\Mesh\Ray.h" />
     <ClInclude Include="Source\Mesh\Vertex.h" />
     <ClInclude Include="Source\Mesh\BoundingBox.h" />
@@ -78,7 +81,10 @@
     <ClCompile Include="Source\Math\Transform.cpp" />
     <ClCompile Include="Source\Mesh\BoundingBox.cpp" />
     <ClCompile Include="Source\Mesh\Color.cpp" />
+    <ClCompile Include="Source\Mesh\FbxLoader.cpp" />
     <ClCompile Include="Source\Mesh\Mesh.cpp" />
+    <ClCompile Include="Source\Mesh\MeshRepository.cpp" />
+    <ClCompile Include="Source\Mesh\Primitive.cpp" />
     <ClCompile Include="Source\Render\InputLayout.cpp" />
     <ClCompile Include="Source\Render\PSO.cpp" />
     <ClCompile Include="Source\Shader\Shader.cpp" />
@@ -179,7 +185,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;SOLUTION_DIR=R"($(SolutionDir))";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>false</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source;$(ProjectDir)ThirdParty\FBX_SDK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
