@@ -24,6 +24,6 @@ MShader* MMaterial::GetShader(const MShaderDefine& ShaderDefine, MD3D12RHI* D3D1
 	}
 	else
 	{
-		Iter->second.get();
+		return Iter->second.get();
 	}
 }
