@@ -181,6 +181,9 @@
     <ClInclude Include="Source\Material\MaterialRepository.h">
       <Filter>Source\Material</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Render\RenderProxy.h">
+      <Filter>Source\Render</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Math\Transform.cpp">

@@ -54,6 +54,7 @@
     <ClInclude Include="Source\Mesh\BoundingBox.h" />
     <ClInclude Include="Source\Render\InputLayout.h" />
     <ClInclude Include="Source\Render\PSO.h" />
+    <ClInclude Include="Source\Render\RenderProxy.h" />
     <ClInclude Include="Source\Shader\Shader.h" />
     <ClInclude Include="Source\TextureLoader\DDS.h" />
     <ClInclude Include="Source\TextureLoader\DDSTextureLoader.h" />
