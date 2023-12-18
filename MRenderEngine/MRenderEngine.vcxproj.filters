@@ -38,6 +38,9 @@
     <Filter Include="Source\Material">
       <UniqueIdentifier>{4ebf7dfe-2644-49cb-b04c-951929a6a210}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Component">
+      <UniqueIdentifier>{6f7e34da-3f8c-4e3e-ac9f-0a790d97c0c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Math\Vector4.h">
